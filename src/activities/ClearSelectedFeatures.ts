@@ -18,6 +18,7 @@ interface ClearSelectedFeaturesInputs {
  */
 export default class ClearSelectedFeaturesActivity implements IActivityHandler {
     /** Perform the execution logic of the activity. */
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     execute(inputs: ClearSelectedFeaturesInputs): Promise<void> {
         throw new ActivityNotImplementedError("SelectFeatures");
     }

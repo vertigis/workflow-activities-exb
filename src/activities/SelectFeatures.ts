@@ -33,7 +33,8 @@ interface SelectFeaturesInputs {
  */
 export default class SelectFeaturesActivity implements IActivityHandler {
     /** Perform the execution logic of the activity. */
-    execute(inputs: SelectFeaturesInputs): Promise<void> {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    execute(_inputs: SelectFeaturesInputs): Promise<void> {
         throw new ActivityNotImplementedError("SelectFeatures");
     }
 }
