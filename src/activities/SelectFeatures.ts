@@ -29,9 +29,11 @@ interface SelectFeaturesInputs {
 /**
  * @displayName SelectFeatures
  * @category Experience Builder
- * @description Select features in exb using the DataSelectionRecordChange message action.
+ * @description Select features in Experience Builder using the DataSelectionRecordChange message action.
+ * @clientOnly
+ * @supportedApps EXB
  */
-export default class SelectFeaturesActivity implements IActivityHandler {
+export default class SelectFeatures implements IActivityHandler {
     /** Perform the execution logic of the activity. */
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     execute(inputs: SelectFeaturesInputs): Promise<void> {

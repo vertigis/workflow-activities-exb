@@ -15,8 +15,10 @@ interface ClearSelectedFeaturesInputs {
  * @displayName ClearSelectedFeatures
  * @category Experience Builder
  * @description Clear all selected features on a given layer.
+ * @clientOnly
+ * @supportedApps EXB
  */
-export default class ClearSelectedFeaturesActivity implements IActivityHandler {
+export default class ClearSelectedFeatures implements IActivityHandler {
     /** Perform the execution logic of the activity. */
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     execute(inputs: ClearSelectedFeaturesInputs): Promise<void> {
