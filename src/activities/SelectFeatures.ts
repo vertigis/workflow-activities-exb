@@ -27,7 +27,7 @@ interface SelectFeaturesInputs {
 }
 
 /**
- * @displayName SelectFeatures
+ * @displayName Select Features
  * @category Experience Builder
  * @description Select features in Experience Builder using the DataSelectionRecordChange message action.
  * @clientOnly

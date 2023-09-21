@@ -12,7 +12,7 @@ interface ClearSelectedFeaturesInputs {
 }
 
 /**
- * @displayName ClearSelectedFeatures
+ * @displayName Clear Selected Features
  * @category Experience Builder
  * @description Clear all selected features on a given layer.
  * @clientOnly
