@@ -1,6 +1,6 @@
 # Experience Builder Activities
 
-[![CI/CD](https://github.com/vertigis/workflow-activities-exb/workflows/CI/CD/badge.svg)](https://github.com/vertigis/workflow-activities-exb/actions)
+[![CI/CD](https://github.com/vertigis/workflow-activities-exb/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/vertigis/workflow-activities-exb/actions/workflows/ci-cd.yml)
 [![npm](https://img.shields.io/npm/v/@vertigis/workflow-activities-exb)](https://www.npmjs.com/package/@vertigis/workflow-activities-exb)
 
 This project contains activities to perform [ArcGIS Experience Builder](https://www.esri.com/en-us/arcgis/products/arcgis-experience-builder/overview) specific actions in a [VertiGIS Studio Workflow](https://www.vertigisstudio.com/products/vertigis-studio-workflow/).
