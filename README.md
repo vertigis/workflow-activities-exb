@@ -1,18 +1,18 @@
 # Experience Builder Activities
 
-[![CI/CD](https://github.com/vertigis/workflow-activities-exb/workflows/CI/CD/badge.svg)](https://github.com/vertigis/workflow-activities-exb/actions)
+[![CI/CD](https://github.com/vertigis/workflow-activities-exb/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/vertigis/workflow-activities-exb/actions/workflows/ci-cd.yml)
 [![npm](https://img.shields.io/npm/v/@vertigis/workflow-activities-exb)](https://www.npmjs.com/package/@vertigis/workflow-activities-exb)
 
 This project contains activities to perform [ArcGIS Experience Builder](https://www.esri.com/en-us/arcgis/products/arcgis-experience-builder/overview) specific actions in a [VertiGIS Studio Workflow](https://www.vertigisstudio.com/products/vertigis-studio-workflow/).
 
-Note: this activity pack contains only activity definitions. The activity implementations are provided by the VertiGIS Studio Workflow widget for Experience Builder.
+> [!IMPORTANT]  
+> This activity pack contains only activity definitions. The activity implementations are included in the VertiGIS Studio Workflow widget for Experience Builder. This activity pack does not need to be registered with your widget.
 
 ## Requirements
 
 ### VertiGIS Studio Workflow Versions
 
-The Experience Builder activities are designed to work with VertiGIS Studio Workflow versions `5.37` and above.
-
+The Experience Builder activities are designed to work with VertiGIS Studio Workflow versions `5.37` and above and the VertiGIS Studio Workflow widget for Experience Builder versions 2.0 and above.
 ## Usage
 
 To use the Experience Builder activities in [VertiGIS Studio Workflow Designer](https://apps.vertigisstudio.com/workflow/designer/) you need to register an activity pack and then add the activities to a workflow.
