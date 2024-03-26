@@ -12,7 +12,7 @@ This project contains activities to perform [ArcGIS Experience Builder](https://
 
 ### VertiGIS Studio Workflow Versions
 
-The Experience Builder activities are designed to work with VertiGIS Studio Workflow versions `5.33` and above and the VertiGIS Studio Workflow widget for Experience Builder versions 2.0 and above.
+The Experience Builder activities are designed to work with VertiGIS Studio Workflow versions `5.37` and above and the VertiGIS Studio Workflow widget for Experience Builder versions 2.0 and above.
 ## Usage
 
 To use the Experience Builder activities in [VertiGIS Studio Workflow Designer](https://apps.vertigisstudio.com/workflow/designer/) you need to register an activity pack and then add the activities to a workflow.
@@ -26,8 +26,9 @@ To use the Experience Builder activities in [VertiGIS Studio Workflow Designer](
     - Purpose: `Ready To Use`
     - API: `JavaScript`
     - URL: The URL to this activity pack manifest
-        - Use https://unpkg.com/@vertigis/workflow-activities-exb/activitypack.json for the latest version
         - Use https://unpkg.com/@vertigis/workflow-activities-exb@1.0.0/activitypack.json for a specific version
+        - Use https://unpkg.com/@vertigis/workflow-activities-exb@1/activitypack.json for the latest revision of a specific major version
+        - Use https://unpkg.com/@vertigis/workflow-activities-exb/activitypack.json for the latest version (not recommended for production use)
         - Use https://localhost:5000/activitypack.json for a local development version
     - Title: Your desired title
     - Tags: Must include `geocortex-workflow-activity-pack`
