@@ -18,6 +18,7 @@ interface OpenWidgetInputs {
  */
 export default class OpenWidgetActivity implements IActivityHandler {
     /** Perform the execution logic of the activity. */
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     execute(inputs: OpenWidgetInputs): Promise<void> {
         throw new ActivityNotImplementedError("OpenWidget");
     }
