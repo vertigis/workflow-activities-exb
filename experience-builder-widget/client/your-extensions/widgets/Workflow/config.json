@@ -1,0 +1,14 @@
+{
+  "workflowInfo": {
+    "designerURL": "",
+    "id": "",
+    "itemUrl": "",
+    "owner": "",
+    "title": ""
+  },
+  "workflowParameters": [],
+  "startOperation": "onStart",
+  "showIcon": true,
+  "showFormTitle": true,
+  "allowedWorkflows": []
+}

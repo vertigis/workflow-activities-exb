@@ -1,0 +1,31 @@
+{
+  "name": "workflow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/runtime/widget.tsx",
+  "author": "",
+  "license": "https://vertigisstudio.com/legal/#licensing-terms-of-use",
+  "dependencies": {
+    "@arcgis/core": "file:../../../node_modules/@arcgis/core",
+    "@emotion/react": "file:../../../node_modules/@emotion/react",
+    "@emotion/serialize": "file:../../../node_modules/@emotion/serialize",
+    "@emotion/styled": "file:../../../node_modules/@emotion/styled",
+    "@esri/arcgis-html-sanitizer": "^4.1.0",
+    "@vertigis/arcgis-extensions": "54.14.3",
+    "@vertigis/licensing": "5.1.1",
+    "@vertigis/react-ui": "21.6.0",
+    "@vertigis/reporting-client": "^2.1.0",
+    "@vertigis/workflow": "5.53.0",
+    "fs-extra": "^10.0.0",
+    "react": "file:../../../node_modules/react",
+    "react-dom": "file:../../../node_modules/react-dom",
+    "xlsx": "file:vendor/xlsx-0.20.3.tgz"
+  },
+  "scripts": {
+    "build": "cd ../../.. && npm run build:dev",
+    "start": "cd ../../.. && npm run start"
+  },
+  "allowScripts": {
+    "@mui/x-telemetry@8.29.0": true
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Workflow",
+  "type": "widget",
+  "version": "3.0.1",
+  "exbVersion": "1.21.0",
+  "author": "VertiGIS North America Ltd.",
+  "description": "Workflow widget",
+  "copyright": "VertiGIS North America Ltd.",
+  "license": "https://vertigisstudio.com/legal/#licensing-terms-of-use",
+  "properties": {
+    "canConsumeDataAction": false
+  },
+  "publishMessages": ["DATA_RECORDS_SELECTION_CHANGE"],
+  "defaultSize": {
+    "width": 100,
+    "height": 100
+  },
+  "translatedLocales": ["en", "de", "nl"],
+  "dependency": "jimu-arcgis",
+  "messageActions": [
+    {
+      "name": "runWorkflow",
+      "label": "Run Workflow",
+      "uri": "message-actions/run-workflow-message-action",
+      "settingUri": "message-actions/run-workflow-message-action-setting"
+    }
+  ],
+  "dataActions": []
+}
