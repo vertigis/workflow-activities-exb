@@ -37,7 +37,7 @@ To use the Experience Builder activities in [VertiGIS Studio Workflow Designer](
 
 ### Get selected features
 
-Use **Get Selected Features** to retrieve the currently selected features from all feature-layer data sources in the Experience Builder app. It has no inputs and returns a `features` collection of ArcGIS graphics. Its runtime implementation is in the included [Workflow widget source](experience-builder-widget/README.md); copy that widget source into a compatible Experience Builder Developer Edition checkout and rebuild the client to use it.
+Use **Get Selected Features** to retrieve the currently selected features from all feature-layer data sources in the Experience Builder app. It has no inputs and returns a `features` collection that can be used by later activities, including **Select Features**.
 
 ## Development
 
