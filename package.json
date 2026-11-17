@@ -21,7 +21,7 @@
         "generate": "vertigis-workflow-sdk generate",
         "lint": "eslint --max-warnings 0 --ext .ts,.tsx src/",
         "prettier": "prettier --write ./src",
-        "start": "vertigis-workflow-sdk start"
+        "start": "node -e \"process.env.PORT = process.env.PORT || 5001; require('@vertigis/workflow-sdk/scripts/start')\""
     },
     "devDependencies": {
         "@vertigis/workflow": "5.37.0",
