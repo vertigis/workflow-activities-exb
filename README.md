@@ -35,6 +35,10 @@ To use the Experience Builder activities in [VertiGIS Studio Workflow Designer](
 1. Reload [VertiGIS Studio Workflow Designer](https://apps.vertigisstudio.com/workflow/designer/)
 1. The Experience Builder activities will now appear in the activity toolbox in an `Experience Builder` category
 
+### Get selected features
+
+Use **Get Selected Features** to retrieve the currently selected features from all feature-layer data sources in the Experience Builder app. It has no inputs and returns a `features` collection that can be used by later activities, including **Select Features**.
+
 ## Development
 
 This project was bootstrapped with the [VertiGIS Studio Workflow SDK](https://github.com/vertigis/vertigis-workflow-sdk). Before you can use your activity pack in the [VertiGIS Studio Workflow Designer](https://apps.vertigisstudio.com/workflow/designer/), you will need to [register the activity pack](https://developers.vertigisstudio.com/docs/workflow/sdk-web-overview#register-the-activity-pack).
@@ -49,7 +53,7 @@ Interactively generate a new activity or form element.
 
 ### `npm start`
 
-Runs the project in development mode. Your activity pack will be available at [http://localhost:5000/main.js](http://localhost:5000/main.js). The HTTPS certificate of the development server is a self-signed certificate that web browsers will warn about. To work around this open [`https://localhost:5000/main.js`](https://localhost:5000/main.js) in a web browser and allow the invalid certificate as an exception. For creating a locally-trusted HTTPS certificate see the [Configuring a HTTPS Certificate](https://developers.vertigisstudio.com/docs/workflow/sdk-web-overview/#configuring-a-https-certificate) section on the [VertiGIS Studio Developer Center](https://developers.vertigisstudio.com/docs/workflow/overview/).
+Runs the project in development mode. By default, your activity pack will be available at [`https://localhost:5000/activitypack.json`](https://localhost:5000/activitypack.json), and the JavaScript bundle at [`https://localhost:5000/main.js`](https://localhost:5000/main.js). If port 5000 is already in use, set the `PORT` environment variable before starting the server. The HTTPS certificate of the development server is self-signed, so open [`https://localhost:5000/main.js`](https://localhost:5000/main.js) in a browser and allow the certificate warning. For creating a locally-trusted HTTPS certificate see the [Configuring a HTTPS Certificate](https://developers.vertigisstudio.com/docs/workflow/sdk-web-overview/#configuring-a-https-certificate) section on the [VertiGIS Studio Developer Center](https://developers.vertigisstudio.com/docs/workflow/overview/).
 
 ### `npm run build`
 
